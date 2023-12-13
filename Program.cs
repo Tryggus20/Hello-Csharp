@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System; //allows me to type Console.WriteLine instead of System.Console.WriteLine
 
 class Program
 {
@@ -12,8 +12,8 @@ class Program
         string name = "David";
         bool isHappy = true;
 
-        Console.WriteLine(rate); //Cannot change number to a string! (must be in it's own WriteLine)
-        Console.WriteLine($"Name: {name}, Letter: {letter}, Is Happy {isHappy}");
+        Console.WriteLine(rate); //Cannot change number to a string! (must be in it's own WriteLine) Updated the code to stringify so rate should work now.
+        Console.WriteLine($"Name: {name}, Letter: {letter}, Is Happy {isHappy} Rate: {rate}");
 
         // if loop syntax 
         if (number > 0)
